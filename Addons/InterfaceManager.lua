@@ -66,7 +66,7 @@ local InterfaceManager = {} do
 
 		local InterfaceTheme = section:AddDropdown("InterfaceTheme", {
 			Title = "Theme",
-			Description = "-",
+			Description = "r",
 			Values = Library.Themes,
 			Default = Settings.Theme,
 			Callback = function(Value)
