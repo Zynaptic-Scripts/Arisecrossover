@@ -65,8 +65,8 @@ local InterfaceManager = {} do
 		local section = tab:AddSection("Interface")
 
 		local InterfaceTheme = section:AddDropdown("InterfaceTheme", {
-			Title = "Theme    ",
-			Description = "",
+			Title = "Theme",
+			Description = "     ",
 			Values = Library.Themes,
 			Default = Settings.Theme,
 			Callback = function(Value)
